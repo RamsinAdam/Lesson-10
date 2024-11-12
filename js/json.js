@@ -20,6 +20,7 @@ const section = document.querySelector ('section');
     // STEP 9a: Invoke the populateHeader function here, then build it below
     populateHeader(iScream);
     // STEP 10a: Invoke the showTopFlavors function here, then build it below
+    showTopFlavors(iScream);
     
  }
 
@@ -36,7 +37,7 @@ function populateHeader(jsonObj) {
     header.append(headerH1)
 };
 /* STEP 10b: Assemble the showTopFlavors() function */
-function showTopFlavors() {
+function showTopFlavors(jsonObj) {
     // STEP 10c: Attache the JSON topFlavors object to a variable
      let topFlavors = jsonObj.topFlavors;
      console.log(topFlavors);
@@ -62,7 +63,7 @@ function showTopFlavors() {
         
     };
 };
-showTopFlavors(iScream);
+
 // STEP 11: The instructor will edit the JSON file - refresh your page to see the updated content
 
 // STEP 12: Change the URL in STEP 3 to point to the JSON file in the local /js folder in order to prepare for today's lab
