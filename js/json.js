@@ -7,7 +7,7 @@ const section = document.querySelector ('section');
  async function populate(){
     // Introducing JavaScript Object Notation (JSON): https://json.org/
     // STEP 4: Store the URL of a JSON file in a variable */
-    const requestURL='https://ramsinadam.github.io/WEEK10/Lession-10/js/i-scream.json';
+    const requestURL='https://ramsinadam.github.io/Lession-10/js/i-scream.json';
     // STEP 5: Use the new URL to create a new request object
     const request = new Request (requestURL)
     // STEP 6: Make a network request with the fetch() function, which returns a Response object
